@@ -25,4 +25,9 @@ Create and run an Apache Airflow workflow in Cloud Composer that completes the f
 - Select or [Create](https://cloud.google.com/resource-manager/docs/creating-managing-projects) a Google Cloud Platform project. 
 - Enable APIs (Cloud Composer, Cloud Dataproc and Cloud Storage)
 - Create Cloud Composer enviroment
-- Create Cloud Storage bucket.
+- Create Cloud Storage bucket
+
+## Setting Up Apache Airflow enviroment variables
+- gcp_project
+- gcs_bucket
+- gce_zone
