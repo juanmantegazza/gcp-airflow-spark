@@ -20,3 +20,9 @@ Create and run an Apache Airflow workflow in Cloud Composer that completes the f
 - Creates a Cloud Dataproc cluster
 - Runs an Apache Spark job on the cluster, and outputs its results to Cloud Storage
 - Deletes the cluster
+
+## Setting Up GCP
+- Select or [Create](https://cloud.google.com/resource-manager/docs/creating-managing-projects) a Google Cloud Platform project. 
+- Enable APIs (Cloud Composer, Cloud Dataproc and Cloud Storage)
+- Create Cloud Composer enviroment
+- Create Cloud Storage bucket.
