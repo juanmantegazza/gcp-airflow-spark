@@ -15,10 +15,13 @@ By using Cloud Composer instead of a local instance of Apache Airflow, users can
 ### What is Cloud Dataproc?
 [Cloud Dataproc](https://cloud.google.com/dataproc) is Google Cloud Platform's fully-managed Apache Spark and Apache Hadoop service. Cloud Dataproc easily integrates with other GCP services, giving you a powerful and complete platform for data processing, analytics and machine learning.
 
-### What will we do?
+----------------------------------------------------------------------------------------------------------------------
+
+## What will we do?
+
 Create and run an Apache Airflow workflow in Cloud Composer that completes the following tasks:
 - Creates a Cloud Dataproc cluster
-- Runs an Apache Spark job on the cluster, and outputs its results to Cloud Storage
+- Runs an Apache Spark job on the cluster
 - Deletes the cluster
 
 ## Setting Up GCP
@@ -27,7 +30,10 @@ Create and run an Apache Airflow workflow in Cloud Composer that completes the f
 - Create Cloud Composer enviroment
 - Create Cloud Storage bucket
 
-## Setting Up Apache Airflow enviroment variables
+## Setting Up Apache Airflow enviroment variables (optional)
 - gcp_project
 - gcs_bucket
-- gce_zone
+- gce_region
+
+## Creating DAG
+- Create a [DAG](/dag.py) that executes this workflow.
